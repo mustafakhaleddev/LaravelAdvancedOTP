@@ -1,8 +1,8 @@
 # Laravel Advanced OTP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mkdev/laravel-advanced-otp.svg?style=flat-square)](https://packagist.org/packages/mkdev/laravel-advanced-otp)
-[![Total Downloads](https://img.shields.io/packagist/dt/mkdev/laravel-advanced-otp.svg?style=flat-square)](https://packagist.org/packages/mkdev/laravel-advanced-otp)
-![GitHub Actions](https://github.com/mkdev/laravel-advanced-otp/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mkd/laravel-advanced-otp.svg?style=flat-square)](https://packagist.org/packages/mkdev/laravel-advanced-otp)
+[![Total Downloads](https://img.shields.io/packagist/dt/mkd/laravel-advanced-otp.svg?style=flat-square)](https://packagist.org/packages/mkdev/laravel-advanced-otp)
+![GitHub Actions](https://github.com/mustafakhaleddev/LaravelAdvancedOTP/actions/workflows/main.yml/badge.svg)
 
 Laravel Advanced OTP is a package designed for flexible OTP (One-Time Password) verification, supporting both hashed token verification and custom validation methods. It allows for easy OTP handling for tasks like email-based authentication.
 
