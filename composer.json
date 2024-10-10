@@ -1,5 +1,5 @@
 {
-    "name": "mkdev/laravel-advanced-otp",
+    "name": "mkd/laravel-advanced-otp",
     "description": "An advanced, customizable OTP (One-Time Password) verification system for Laravel applications, supporting hashed token and custom validation methods.",
     "keywords": [
         "laravel",

@@ -18,7 +18,7 @@ Laravel Advanced OTP is a package designed for flexible OTP (One-Time Password) 
 Install the package via Composer:
 
 ```bash
-composer require your-vendor/laravel-advanced-otp
+composer require mkd/laravel-advanced-otp
 ```
 
 
