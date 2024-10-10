@@ -134,13 +134,6 @@ class LoginOTP extends MagicOTP
 
 You can adjust the default settings like OTP timeout, length, and more by customizing your OTP class.
 
-## License
-
-This package is open-source and licensed under the [MIT license](LICENSE).
-
----
-
-This README provides an overview of the package’s installation, usage, and customization for OTP verification in Laravel. You can further adjust the content based on your exact package setup.
 ### Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
