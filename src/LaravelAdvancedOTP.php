@@ -3,20 +3,19 @@
 namespace Mkdev\LaravelAdvancedOTP;
 
 
-use http\Exception\BadConversionException;
 use Mkdev\LaravelAdvancedOTP\Contracts\OTPProviderContract;
 use Mkdev\LaravelAdvancedOTP\Enums\OTPStatusEnum;
+use Mkdev\LaravelAdvancedOTP\Exceptions\InvalidOTPMethodException;
 use Mkdev\LaravelAdvancedOTP\Interfaces\OTPProviderInterface;
 
 class LaravelAdvancedOTP
 {
 
-
     private function getMethod(string $method)
     {
         $otpMethod = new $method();
         if (!$otpMethod instanceof OTPProviderContract) {
-            throw new BadConversionException;
+            throw new InvalidOTPMethodException;
         }
         return $otpMethod;
     }
